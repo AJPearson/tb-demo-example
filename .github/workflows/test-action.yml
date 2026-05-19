@@ -5,6 +5,7 @@ permissions:
 
 on:
   push:
+  workflow_dispatch:
 
 env:
   allow_showing_creds_in_test_repo: ${{ github.repository != 'tracebit-com/tracebit-community-action' }}
